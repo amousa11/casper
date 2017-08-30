@@ -9,7 +9,7 @@ validators: public({
     dynasty_end: num,
     # The address which the validator's signatures must verify to (to be later replaced with validation code)
     addr: address,
-    # Addess to withdraw to
+    # Address to withdraw to
     withdrawal_addr: address,
     # Previous epoch in which this validator committed
     prev_commit_epoch: num
